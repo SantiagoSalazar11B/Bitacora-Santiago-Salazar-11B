@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitacora Tecnología Salazar</title>
+    <style>
+    html, body{
+        height: 100%;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    header{
+        padding: 20px;
+        background-color: beige;
+    }
+    h1 {
+        color: white;
+        text-shadow: 0 0 5px #bc13fe,   0 0 10px #bc13fe,   0 0 20px #bc13fe;
+    }
+
+    main{
+        flex: 1;
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+.semana {
+    background-color: #ffffff;   /* Fondo blanco para que destaque */
+    border-radius: 15px;        /* Bordes bien redondeados */
+    padding: 25px;              /* Espacio cómodo por dentro */
+    margin: 20px auto;          /* Espacio entre tarjetas y centradas */
+    max-width: 800px;           /* Ancho máximo para que no se estiren demasiado */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave y elegante */
+    border-left: 6px solid #24045b; /* Una línea neón al lado izquierdo */
+    text-align: left;           /* Texto alineado a la izquierda para leer mejor */
+    transition: 0.3s;           /* Para que el efecto al pasar el mouse sea suave */
+}
+
+.semana:hover {
+    transform: translateY(-5px); /* La tarjeta sube un poquito cuando pasas el mouse */
+    box-shadow: 0 8px 25px rgba(188, 19, 254, 0.2); /* La sombra se vuelve morada */
+}
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 50px;
+        border-top: 1px skyblue;
+        background-color: rgb(13, 3, 116);
+    }
+    footer img {
+    transition: transform 0.3s ease; /* Esto hace que el zoom sea suave */
+    cursor: pointer;                /* Cambia el cursor para indicar que es interactivo */
+}
+
+footer img:hover {
+    transform: scale(1.2); /* Crece un 20% al pasar el mouse */
+}
+    @media(max-width:600px){
+        footer{
+            flex-direction: column;
+            gap: 15px;
+            padding: 20px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Encabezado en mi pagina WEB</h1>
+        <main>
+    <div class="semana">
+        <h3>Semana 1: Mi primer estilo</h3>
+        <p>Aquí escribiré todo lo que aprendí sobre CSS y cómo usar la IA para mejorar mis diseños.</p>
+    </div>
+
+    <div class="semana">
+        <h3>Semana 2: Efectos Especiales</h3>
+        <video controls>
+                <source src="recursos/Video/1234567890.mp4" type="video/mp4">
+                Tu navegador no soporta el formato de video.
+            </video>
+        <p>Hoy implementamos sombras neón y tarjetas dinámicas.</p>
+    </div>
+</main>
+    </header>
+    <main>
+        <h4>Contenido de mi pagina WEB</h4>
+    </main>
+    <footer>
+        <span>2026 @thesalazarr</span>
+        <img src="https://www.capouilliez.edu.gt/assets/img/logo.png" alt="">
+    </footer>
+</body>
+</html>
