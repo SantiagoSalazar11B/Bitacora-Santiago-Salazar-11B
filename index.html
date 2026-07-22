@@ -1,9 +1,12 @@
+¡Aquí tienes el código completo y listo para usar! Se ha aplicado la gama de azules manteniendo las intensidades, efectos neón y transparencias exactas que tenía la versión original:
+
+HTML
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bitácora Santiago Salzar </title>
+    <title>Bitácora Santiago Salazar</title>
     
     <link rel="icon" type="image/png" href="Recursos/img/LogoCapuRo.png">
     <style>
@@ -23,7 +26,7 @@
         header {
             padding: 30px;
             background-color: #e2dede;
-            border-bottom: 2px solid #fda0ff;
+            border-bottom: 2px solid #a0c4ff; /* Borde azul claro */
         }
 
         h1 {
@@ -33,10 +36,10 @@
             text-shadow:
                 0 0 5px #fff,
                 0 0 10px #fff,
-                0 0 20px #feb4f2,
-                0 0 40px #f755f7,
-                0 0 80px #ce22c0,
-                0 0 90px #c022ce;
+                0 0 20px #b4d7fe,
+                0 0 40px #55a2f7,
+                0 0 80px #2273ce,
+                0 0 90px #2260ce; /* Resplandor Neón Azul */
         }
 
         main {
@@ -55,19 +58,19 @@
             padding: 25px;
             margin-bottom: 30px;
             text-align: left;
-            border-left: 8px solid #f755dc;
-            box-shadow: 0 4px 15px rgba(247, 85, 161, 0.3);
+            border-left: 8px solid #55a2f7; /* Borde azul vibrante */
+            box-shadow: 0 4px 15px rgba(85, 162, 247, 0.3); /* Sombra con azul transparente */
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .semana:hover {
             transform: translateY(-5px);
-            box-shadow: 0 8px 25px rgba(242, 85, 247, 0.5);
+            box-shadow: 0 8px 25px rgba(85, 162, 247, 0.5);
         }
 
-        .semana h3 {
+        .semana h3, .semana h2 {
             margin-top: 0;
-            color: #7e22ce;
+            color: #2260ce; /* Azul oscuro e intenso */
         }
 
         .pdf-container, .video-container {
@@ -89,13 +92,13 @@
             justify-content: space-between;
             align-items: center;
             padding: 15px 50px;
-            background-color: rgb(249, 225, 242);
-            border-top: 3px solid #f755d1;
+            background-color: rgb(225, 238, 249); /* Fondo azul pastel muy suave */
+            border-top: 3px solid #55a2f7;
         }
 
         footer span {
             font-weight: bold;
-            color: #ce22cb;
+            color: #2260ce;
         }
 
         footer img {
@@ -115,7 +118,6 @@
     </header>
 
     <main>
-        <!-- Semana 1 / Introducción -->
         <div class="semana">
             <h3>Introducción Arduino</h3>
             <p>
@@ -126,7 +128,6 @@
             </div>
         </div>
 
-        <!-- Semana 2 -->
         <div class="semana">
             <h3>Semana 2</h3>
             <p>En esta semana utilizamos la plataforma Tinkercad para la introducción de Arduino y simulación de circuitos básicos.</p>
@@ -138,7 +139,6 @@
             </div>
         </div>
 
-        <!-- Semana 3 -->
         <div class="semana">
             <h3>Semana 3</h3>
             <p>Práctica y simulación de circuitos intermedios utilizando sensores y salidas digitales.</p>
@@ -150,7 +150,6 @@
             </div>
         </div>
 
-        <!-- Semana 4 -->
         <div class="semana">
             <h3>Semana 4</h3>
             <p>Implementación de lectura de señales analógicas y acondicionamiento de entradas en Tinkercad.</p>
@@ -162,7 +161,6 @@
             </div>
         </div>
 
-        <!-- Semana 5 -->
         <div class="semana">
             <h3>Semana 5</h3>
             <p>Control de actuadores (motores/servos) y lógica de programación en bloque/código en Arduino.</p>
@@ -174,7 +172,6 @@
             </div>
         </div>
 
-        <!-- Semana 6 -->
         <div class="semana">
             <h3>Semana 6</h3>
             <p>Proyecto integrador de la unidad y puesta a prueba de los circuitos desarrollados.</p>
@@ -184,17 +181,17 @@
                     Tu navegador no soporta la reproducción de video.
                 </video>
             </div>
-            </div>
+        </div>
 
-         <!-- Semana 7 -->
         <div class="semana">
             <h2>Semana 7: Sensor ultrasónico</h2>
-            <p>Se realizó un circuito en tinkercad simulando la luz de los baños que al sentir movimiento se prende la Led roja y luego de cierto tiempo de ya no sentir movimiento se prende la Led azul</p>
-
-            <video width="100%" controls style="border-radius: 8px;">
-                <source src="semana7ss.mp4" type="video/mp4">
-                Tu navegador no soporta la reproducción de video.
-            </video>
+            <p>Se realizó un circuito en tinkercad simulando la luz de los baños que al sentir movimiento se prende la Led roja y luego de cierto tiempo de ya no sentir movimiento se prende la Led azul.</p>
+            <div class="video-container">
+                <video controls> 
+                    <source src="semana7ss.mp4" type="video/mp4">
+                    Tu navegador no soporta la reproducción de video.
+                </video>
+            </div>
         </div>
     </main>
 
